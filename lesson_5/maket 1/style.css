@@ -1,0 +1,49 @@
+.frame1 {
+    position: absolute;
+    width: 130px;
+    height: 43px;
+    left: 982px;
+    top: 36px;
+
+    background: #D9D9D9;
+}
+
+.frame2 {
+    position: absolute;
+    width: 587px;
+    height: 75px;
+    left: 525px;
+    top: 212px;
+
+    background: #FFF50D;
+}
+
+.frame3 {
+    position: absolute;
+    width: 392px;
+    height: 39px;
+    left: 720px;
+    top: 299px;
+
+    background: #FFF50D;
+}
+
+.frame4 {
+    position: absolute;
+    width: 248px;
+    height: 29px;
+    left: 864px;
+    top: 403px;
+
+    background: #158FFF;
+}
+
+.frame5 {
+    position: absolute;
+    width: 624px;
+    height: 26px;
+    left: 488px;
+    top: 552px;
+
+    background: #D9D9D9;
+}

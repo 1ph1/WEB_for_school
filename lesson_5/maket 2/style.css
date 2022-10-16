@@ -1,0 +1,89 @@
+.frame1 {
+    position: absolute;
+    width: 1665px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+
+    background: #D9D9D9;
+}
+
+.frame2 {
+    position: absolute;
+    width: 84px;
+    height: 88px;
+    left: 237px;
+    top: 58px;
+
+    background: #D9D9D9;
+}
+
+.frame3 {
+    position: absolute;
+    width: 640px;
+    height: 37px;
+    left: 501px;
+    top: 82px;
+
+    background: #D9D9D9;
+}
+
+.frame4 {
+    position: absolute;
+    width: 245px;
+    height: 37px;
+    left: 1188px;
+    top: 80px;
+
+    background: #579AFF;
+}
+
+.frame5 {
+    position: absolute;
+    width: 1665px;
+    height: 647px;
+    left: 0px;
+    top: 159px;
+
+    background: #000000;
+}
+
+.frame6 {
+    position: absolute;
+    width: 543px;
+    height: 232px;
+    left: 832px;
+    top: 306px;
+
+    background: #FBFF35;
+}
+
+.frame7 {
+    position: absolute;
+    width: 295px;
+    height: 78px;
+    left: 832px;
+    top: 592px;
+
+    background: #579AFF;
+}
+
+.frame8 {
+    position: absolute;
+    width: 32px;
+    height: 55px;
+    left: 77px;
+    top: 470px;
+
+    background: #D9D9D9;
+}
+
+.frame9 {
+    position: absolute;
+    width: 34px;
+    height: 51px;
+    left: 1531px;
+    top: 474px;
+
+    background: #D9D9D9;
+}
