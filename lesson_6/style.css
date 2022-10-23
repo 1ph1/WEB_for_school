@@ -1,0 +1,47 @@
+body {
+    background-color: bisque;
+}
+
+caption {
+    background-color: grey;
+    color: white;
+}
+
+thead {
+    font-size: 20pt;
+    
+}
+
+tfoot {
+    
+    font-weight: bold;
+}
+
+table {
+    background-color: white;
+    border-collapse: collapse;
+}
+
+.items .item::before {
+    content: "💠";
+}
+
+.secret_items .item::before {
+    content: "🌌";
+}
+
+table .price::before {
+    content: "💲";
+}
+
+td, th {
+    border: 1px solid;
+}
+
+th {
+    border: 3px solid;
+}
+
+.tfoot {
+    border: 3px solid;
+}
