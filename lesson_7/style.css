@@ -1,0 +1,87 @@
+body {
+    background-color: palegoldenrod;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Первый экран */
+
+.welcome {
+    text-align: center;
+    background: linear-gradient(90deg,#BD00FF 30%, #4548FF 70%);
+    padding: 160px 0;
+}
+
+.welcome_img {
+    width: 157px;
+    border-radius: 20%;
+    border: 4px solid whitesmoke;
+}
+
+h1 {
+    font-family: 'Fasthand', cursive;
+    color:blanchedalmond;
+    font-size: 35pt;
+    margin-bottom: 40px;
+}
+
+.welcome_text {
+    font-family: 'Pacifico', cursive;
+    color: rgb(170, 209, 240);
+    font-size: 20pt;
+    margin-bottom: 40px;
+}
+
+/* Новинки */
+
+.new {
+    text-align: center;
+    padding: 75px;
+}
+
+.new_head {
+    font-family: 'Pacifico', cursive;
+    color: #6400FF;
+    font-size: 30pt;
+    margin: 45px 0;
+}
+
+.book_card {
+    display: inline-block;
+    width: 45%;
+    height: 270px;
+    background-color: aliceblue;
+    border: 3px solid rgb(209, 204, 149);
+    border-radius: 25px;
+    padding: 35px 30px;
+    margin: 0 10px;
+}
+
+.book-cover {
+    width: 160px;
+    height: 210px;
+    display: inline-block;
+}
+
+.book-intro {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+    float: right;
+}
+ 
+.book-link {
+    display: inline-block;
+    font-family: 'Fasthand', cursive;
+}
+
+/* номинации */
+
+.prize {
+    text-align: center;
+    background: linear-gradient(90deg,#BD00FF 30%, #4548FF 70%);
+    padding-bottom: 160px 0;
+}
