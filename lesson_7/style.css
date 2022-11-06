@@ -76,12 +76,64 @@ h1 {
 .book-link {
     display: inline-block;
     font-family: 'Fasthand', cursive;
+    line-height: 25px;
+    margin-top: 25px;
 }
 
 /* номинации */
 
 .prize {
-    text-align: center;
     background: linear-gradient(90deg,#BD00FF 30%, #4548FF 70%);
-    padding-bottom: 160px 0;
+    text-align: center;
+    padding-bottom: 50px 0;
+}
+
+.prize-heading {
+    font-family: 'Pacifico', cursive;
+    font-size: 25pt;
+    color: white;
+    padding-top: 50px;
+}
+
+.prize-icons {
+    font-size: 30px;
+    display: block;
+}
+
+.prize-list {
+    font-family: 'Pacifico', cursive;
+    display: inline-block;
+    width: 320px;
+    text-align: left;
+    margin: 30px 30px 0;
+    color: #5b5b5b;
+}
+
+h3 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+ol {
+    list-style-type: none;
+    padding-left: 50px;
+
+}
+
+/* Последняя секция */
+
+.last-sec {
+    width: 70%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.reader-img {
+    border-radius: 50%;
+    float: right;
+}
+
+.last-words {
+    font-size: 25px;
+    line-height: 10px;
 }
