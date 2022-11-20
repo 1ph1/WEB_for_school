@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(160deg, #bebdff 0%, rgba(218, 230, 250, 0.9) 60%, rgba(250, 250, 170, 0.9) 120%);
+    padding: 150px 0;
+}
+
+.article {
+    width: 60%;
+    margin: auto;
+    background-color: whitesmoke;
+    border: 7px solid #84ff84;
+    padding: 60px 100px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.cosmos {
+    position: absolute;
+    top: -90px;
+    z-index: 1;
+} 
+
+.heading {
+    display: block;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: rgb(64, 64, 144);
+    position: sticky;
+    padding: 20px 0px 20px;
+    top: 0;
+}
+
+.text {
+    height: 205px;
+    overflow: scroll;
+}
+
+.rocket {
+    position: absolute;
+    left: 40px;
+    bottom: 65%;
+    transform: rotate(45deg);
+}
+
+.scheme {
+    padding: 0 100px;
+}
+
+.shaurmasuit-scheme {
+    display: inline-block;
+    width: 600px;
+    position: relative;
+}
+
+.shaurmansuit {
+    width: 100%;
+}
+
+.mark {
+    position: absolute;
+}
+
+.mark1 {
+    top: 100px;
+    left: 250px;
+}
+
+.mark2 {
+    top: 35%;
+    left: 65%;
+}
+
+.mark3 {
+    top: 65%;
+    left: 30%;
+}
+
+.mark4 {
+    top: 70%;
+    left: 90%;
+}
+
+.mark5 {
+    top: 20%;
+    left: 80%;
+
+}
+
+.items {
+    float: right;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 50px;
+    color: #45294c;
+    margin-right: 100px;
+}
+
+li {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+li::before {
+    display: inline-block;
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: -47px;
+    top: 2px;
+}
+
+li:nth-child(1)::before {
+    content: url("img/mark1.svg")
+}
+
+li:nth-child(2)::before {
+    content: url("img/mark2.svg")
+}
+
+li:nth-child(3)::before {
+    content: url("img/mark3.svg")
+}
+
+li:nth-child(4)::before {
+    content: url("img/mark4.svg")
+}
+
+li:nth-child(5)::before {
+    content: url("img/mark5.svg")
+}
