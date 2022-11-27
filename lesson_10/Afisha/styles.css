@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(8, 40, 61);
+    padding: 100px 30px;
+}
+
+.movie-card {
+    width: 70%;
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.4s linear;
+}
+
+.movie-card:hover {
+    transform: scale(1.1);
+}
+
+.card1 {
+    background-image: url("img/am-before.jpg");
+}
+
+.card1:hover {
+    background-image: url("img/am-after.jpg");
+}
+
+.card2 {
+    background-image: url("img/pudge-before.jpg");
+}
+
+.card2:hover {
+    background-image: url("img/pudge-after.jpg");
+}
+
+.card3 {
+    background-image: url("img/mage-before.jpg");
+}
+
+.card3:hover {
+    background-image: url("img/mage-after.jpg");
+}
+
+.card4 {
+    background-image: url("img/bristleback-before.jpg");
+}
+
+.card4:hover {
+    background-image: url("img/bristleback-after.png");
+}
+
+.card5 {
+    background-image: url("img/teches-before.jpg");
+}
+
+/*.card5:hover {
+    background-image: url("img/teches-after.jpg");
+}*/
+
+.card5.effect:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url("img/effect.png");
+    opacity: 0;
+    transition: opacity 0.5;
+}
