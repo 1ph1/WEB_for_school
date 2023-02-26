@@ -40,8 +40,15 @@
 
 // console.log(b)
 
-let jump = 1
-while (jump<=10){
-    console.log(`Прыг ${jump}`)
-    jump++;
+// let jump = 1
+// while (jump<=10){
+//     console.log(`Прыг ${jump}`)
+//     jump++;
+// }
+
+while (true){
+    let a = prompt(`Введите число`)
+    if (a<10){
+        break
+    }
 }

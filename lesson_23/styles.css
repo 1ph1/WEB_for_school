@@ -1,0 +1,27 @@
+/* ПРИОРЕТЕТЫ
+id(начинается с #)
+класс(начинается с .)
+    последний обьявленный класс в css при применении на тег сразу двух будет доминировать над тем кто был обьявлен ранее
+тег
+*/
+
+/* p {
+    background-color: green;
+} 
+
+#blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.gold {
+    background-color: gold;
+} */
+
+.chiki {
+    display: flex;
+    justify-content: space-between;
+}

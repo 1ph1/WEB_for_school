@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <div class="up">
+            <div class="main_game">
+                <h1>УГАДАЙ ЧИСЛО</h1>
+                <h3>Введите число от 1 до 100:</h3>
+                <input class="answer" type="text">
+                <button class="check" onclick="checkValue()">Проверить</button>
+                <h6>ЗАГАДАННОЕ ЧИСЛО БОЛЬШЕ/МЕНЬШЕ ЧЕМ ЧИСЛО ИГРОКА</h6>
+            </div>
+            <img src="img/ghost.png" alt="Призрак хле">
+        </div>
+        <div class="down">
+            <h1 class="random_number">?</h1>
+            <img src="img/cat.png" alt="">
+            <div class="results">
+                <div class="lifes">
+                    <p>СЧЕТ:</p>
+                    <span class="lifes_span"> </span>
+                </div>
+                <div class="best_score">
+                    <p>РЕКОРД:</p>
+                    <span class="best_score_span"> </span>
+                </div>
+                <button class="again">Еще раз</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+<!-- ГРИД: https://doka.guide/css/grid-guide/ -->
