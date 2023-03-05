@@ -6,30 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
         <div class="up">
-            <div class="main_game">
-                <h1>УГАДАЙ ЧИСЛО</h1>
-                <h3>Введите число от 1 до 100:</h3>
+            <h1 class="item heading">УГАДАЙ ЧИСЛО</h1>
+            <img class="item_img item img" src="img/ghost.png" alt="Призрак хле">
+            <h3 class="item info">Введите число от 1 до 100:</h3>
+            <div class="item player">
                 <input class="answer" type="text">
                 <button class="check" onclick="checkValue()">Проверить</button>
-                <h6>ЗАГАДАННОЕ ЧИСЛО БОЛЬШЕ/МЕНЬШЕ ЧЕМ ЧИСЛО ИГРОКА</h6>
             </div>
-            <img src="img/ghost.png" alt="Призрак хле">
+            <h6 class="hint item">ЗАГАДАННОЕ ЧИСЛО БОЛЬШЕ/МЕНЬШЕ ЧЕМ ЧИСЛО ИГРОКА</h6>
         </div>
         <div class="down">
-            <h1 class="random_number">?</h1>
-            <img src="img/cat.png" alt="">
-            <div class="results">
+            <h1 class="random_number down_item">?</h1>
+            <img class="down_item" src="img/cat.png" alt="">
+            <div class="results down_item">
                 <div class="lifes">
                     <p>СЧЕТ:</p>
-                    <span class="lifes_span"> </span>
+                    <span class="lifes_span">10</span>
                 </div>
                 <div class="best_score">
                     <p>РЕКОРД:</p>
-                    <span class="best_score_span"> </span>
+                    <span class="best_score_span">0</span>
                 </div>
                 <button class="again">Еще раз</button>
             </div>
