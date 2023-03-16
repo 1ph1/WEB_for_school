@@ -16,6 +16,7 @@ function checkValue() {
     let playerAnswer = document.querySelector(".answer")
     console.log(playerAnswer.value)
     if(playerAnswer.value == randomNumber){
+        hint.innerHTML=`ВЫ ПОБЕДИЛИ!`
         answer.innerHTML = randomNumber
         if(lifesHtml>finalScore){
             finalScore.innerHTML=lifesHtml
