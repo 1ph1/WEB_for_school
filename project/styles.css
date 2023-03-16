@@ -83,21 +83,88 @@ main {
 }
 
 .down {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto;
-    grid-auto-flow: row dense;
-    gap: 10px;
-    padding: 10px;
-}
-
-.down_item {
-    min-height: 50px;
-    text-align: center;
-    line-height: 1;
+    display: flex;
+    justify-content: space-between;
 }
 
 .random_number {
-    border-radius: 20px;
+    margin-left: 150px;
+    border-radius: 50px;
+    font-family: 'Russo One';
+    font-size: 70px;
+}
+
+.results {
+    margin-right: 100px;
+}
+
+.lifes {
+    display: flex;
+    flex-direction: row;
+}
+
+.best_score {
+    display: flex;
+    flex-direction: row;
+}
+
+.item1 {
+    margin-top: 10px;
+    width: 80px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.score {
+    border-radius: 100px;
+    font-size: 30px;
+    font-family: 'Russo One';
     background-color: #D3BAE5;
+    padding: 10px 70px;
+    
+}
+
+.lifes_span {
+    border-radius: 100px;
+    font-size: 30px;
+    font-family: 'Russo One';
+    background-color: #DBA2DC;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.item2 {
+    margin-top: 10px;
+    width: 80px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.best_score_span {
+    border-radius: 100px;
+    font-size: 30px;
+    font-family: 'Russo One';
+    background-color: #DBA2DC;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.again {
+    border-radius: 50px;
+    font-family: 'Russo One';
+    font-size: 40px;
+    background-color: #DBA2DC;
+    color: white;
+    border-color: transparent;
+    height: 80px;
+    width: 340px;
+}
+
+.again:hover {
+    background-color: #C688C8;
+}
+
+.again:active {
+    background-color: #BD86BE;
+    color: #F1E2F1
 }
