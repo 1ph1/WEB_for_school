@@ -18,23 +18,23 @@
             <h3 class="item info">Введите число от 1 до 100:</h3>
             <div class="item player">
                 <input class="answer" type="text">
-                <button class="check" onclick="checkValue()">Проверить</button>
+                <button class="check" onclick="checkValue()" disabled>Проверить</button>
             </div>
             <h6 class="hint item">ЗАГАДАННОЕ ЧИСЛО БОЛЬШЕ/МЕНЬШЕ ЧЕМ ЧИСЛО ИГРОКА</h6>
         </div>
         <div class="down">
-            <h1 class="random_number">?</h1>
-            <img class="down_item" src="img/cat.png" alt="">
-            <div class="results">
+            <h1 class="random_number down_item">?</h1>
+            <img class="catpng down_item" src="img/cat.png" alt="">
+            <div class="results down_item">
                 <div class="lifes">
                     <p class="item1 score">СЧЕТ:</p>
                     <span class="item1 lifes_span">10</span>
                 </div>
                 <div class="best_score">
-                    <p class="item2 score">РЕКОРД:</p>
+                    <p class="item2 score2">РЕКОРД:</p>
                     <span class="item2 best_score_span">0</span>
                 </div>
-                <button class="again">Еще раз</button>
+                <button class="again" onclick="playAgain()" disabled>Еще раз</button>
             </div>
         </div>
     </main>
