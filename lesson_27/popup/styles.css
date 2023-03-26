@@ -1,0 +1,111 @@
+body {
+    cursor: help;
+    background-color: #6b73bf;
+}
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur( 4px );
+    background-color: #a7a6a6;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.btn_box {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 20px 50px;
+    margin: 0 35px;
+    border-radius: 15px;
+    background-color: #848484;
+    border: none;
+    font-size: 10px;
+    text-transform: uppercase;
+    cursor: grabbing;
+}
+
+.btn:first-child:hover {
+    background: linear-gradient(90deg, #ffd2d2, #ff0000, #00ff2f, #0088ff, #ffd2d2);
+    color: #ffffff;
+    background-size: 400%;
+}
+
+.btn:last-child:hover {
+    background: linear-gradient(90deg, #ffd2d2, #d9ff00, #cc00ff, #ff00aa, #ffd2d2);
+    color: #ffffff;
+    background-size: 400%;
+}
+
+.btn:hover {
+    z-index: 1;
+    animation: glow 8s linear infinite;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    width: 522px;
+    height: 80%;
+    margin: 0 auto;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    background: rgba( 74, 144, 226, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    font-size: 40px;
+    cursor: progress;
+}
+
+.close:hover {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes glow {
+    0% {
+        background-position: 0;
+    }
+
+    100% {
+        background-position: 400%;
+    }
+}
+
+
+.text {
+    padding-top: 10px;
+}
+
+.heading {
+    font-size: 40px;
+    font-family: Oxygen;
+    font-weight: 700;
+}
+
+.smolText {
+    font-family: Oxygen;
+    font-size: 20px;
+    font-weight: 300;
+}

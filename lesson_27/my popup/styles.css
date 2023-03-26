@@ -1,0 +1,28 @@
+body {
+    background-color: #ab81ff;
+}
+
+.pupa {
+    background-color: #fff;
+    width: 522px;
+    height: 80%;
+    margin: 0 auto;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+.text {
+    padding-top: 10px;
+}
+
+.heading {
+    font-size: 40px;
+    font-family: Oxygen;
+    font-weight: 700;
+}
+
+.smolText {
+    font-family: Oxygen;
+    font-size: 20px;
+    font-weight: 300;
+}
