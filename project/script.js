@@ -16,8 +16,8 @@ buttonDis1.disabled=false
 
 function checkValue() {
     let playerAnswer = document.querySelector(".answer")
-
-    if(Number.isInteger(playerAnswer.value)==true){
+    let pattern = /^(0|[1-9]\d*)$/.test(playerAnswer.value)
+    if(pattern == false){
         hint.innerHTML=`ВВЕДИТЕ ЧИСЛО ОТ 1 ДО 100`
     }else{
         if(playerAnswer.value > 100){
@@ -25,19 +25,21 @@ function checkValue() {
         }else if(playerAnswer.value < 1){
             hint.innerHTML=`ВВЕДЕННОЕ ЧИСЛО ДОЛЖНО БЫТЬ БОЛЬШЕ 1`
         }else{
+            lifesHtml.innerHTML = lifes - 1
+            --lifes
             if(playerAnswer.value == randomNumber){
+                buttonDis1.disabled=true
                 hint.innerHTML=`ВЫ ПОБЕДИЛИ!`
                 answer.innerHTML = randomNumber
                 if(finalScore.innerHTML=="0"){
                     finalScore.innerHTML=10-lifes
-                }else if(finalScore<10-lifes){
-                    finalScore.innerHTML=10-lifes
+                }else if(finalScore>10-lifes){
+                    let checkLifes = 10-lifes
+                    finalScore.innerHTML=checkLifes + 1
                 }
                 buttonDis2.disabled=false
             }else if(playerAnswer.value > randomNumber){
                 hint.innerHTML=`ЗАГАДАННОЕ ЧИСЛО МЕНЬШЕ ЧЕМ ЧИСЛО ИГРОКА`
-                lifesHtml.innerHTML = lifes - 1
-                --lifes
                 if(lifes==0){
                     alert("Игра окончена")
                     buttonDis1.disabled=true
@@ -45,8 +47,6 @@ function checkValue() {
                 }
             }else if(playerAnswer.value < randomNumber){
                 hint.innerHTML=`ЗАГАДАННОЕ ЧИСЛО БОЛЬШЕ ЧЕМ ЧИСЛО ИГРОКА`
-                lifesHtml.innerHTML = lifes - 1
-                --lifes
                 if(lifes==0){
                     alert("Игра окончена")
                     buttonDis1.disabled=true
