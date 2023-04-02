@@ -1,0 +1,59 @@
+body {
+    background-color: #222;
+}
+
+.gallery {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 40px;
+}
+
+.gallery_slide {
+    height: 80vh;
+    border-radius: 20px;
+    color: white;
+    flex: 1;
+    margin: 0 6px;
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
+
+.gallery_slide:nth-child(1){
+    background: url("img/site-1.png") center/cover no-repeat;
+}
+.gallery_slide:nth-child(2){
+    background: url("img/site-2.png") center/cover no-repeat;
+}
+.gallery_slide:nth-child(3){
+    background: url("img/site-3.png") center/cover no-repeat;
+}
+.gallery_slide:nth-child(4){
+    background: url("img/site-4.png") center/cover no-repeat;
+}
+.gallery_slide:nth-child(5){
+    background: url("img/site-5.png") center/cover no-repeat;
+}
+.gallery_slide:nth-child(6){
+    background: url("img/site-6.png") center/cover no-repeat;
+}
+
+.gallery_slide.active {
+    flex: 10;
+}
+
+.gallery_slide a{
+    position: absolute;
+    font-size: 30px;
+    bottom: 20px;
+    left: 20px;
+    opacity: 0;
+    color: white;
+}
+
+.gallery_slide.active a{
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
