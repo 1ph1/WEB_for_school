@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    position: relative;
+    background-color: rgb(255, 255, 255, 0.35);
+    backdrop-filter: blur(200px);
+    width: 60vw;
+    height: 60vh;
+    border-radius: 30px;
+    display: flex;
+    box-shadow: 0 10px 50px rgb(0, 0, 0, 0.25);
+}
+
+body {
+    font-family: 'Marmelad';
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/pig-bkg.webp);
+}
+
+.player {
+    flex: 50%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styless.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marmelad&family=Rubik+Gemstones&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="player player-0 active">
+            <h2 class="name">Игрок 1</h2>
+            <p class="score">43</p>
+            <div class="current">
+                <p class="current_label">Текущий</p>
+                <p class="current_score" id="current_0">0</p>
+            </div>
+        </div>
+
+        <div class="player player-q active">
+            <h2 class="name">Игрок 2</h2>
+            <p class="score">20</p>
+            <div class="current">
+                <p class="current_label">Текущий</p>
+                <p class="current_score" id="current_1">0</p>
+            </div>
+        </div>
+
+        <img src="img/dice-1.png" alt="" class="dice">
+        <button class="btn btn_new">Еще раз</button>
+        <button class="btn btn_roll">Кинуть кубик</button>
+        <button class="btn btn_hold">Удержать</button>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
