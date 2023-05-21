@@ -1,0 +1,207 @@
+body {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.second_page{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FAA9A9;
+    margin: 0;
+    padding: 10px;
+}
+
+.second-screen-main {
+    display: flex;
+}
+
+footer {
+    align-items: center;
+    background-color: #FAA9A9;
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer {
+    font-size: 15px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+/* ПЕРВАЯ СТРАНИЦА */
+
+.discounts {
+    width: 300px;
+    padding: 10px;
+}
+
+.pizza_img {
+    width: 700px;
+    height: 450px;
+}
+
+.pizza_button {
+    overflow: hidden;
+    position: relative;
+    /* margin: 5vh 0; */
+    left: 50%;
+    transform: translateX(-90%);
+    margin: 15vh 0;
+    height: fit-content;
+    border-radius: 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.order_place {
+    position: absolute;
+    background-color: #df8080;
+    width: 500px;
+    height: 400px;
+    top: 100px;
+    left: 50%;
+    padding: 20px;
+    border-radius: 15px;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.inputQuestions {
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.order_place_text {
+    color: #3a3a3a;
+}
+
+.submit {
+    border-radius: 15px;
+    display: block;
+    border: none;
+    background-color: #c26e6e;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur( 4px );
+    background-color: #a7a6a6;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+
+.hidden {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.discount_text {
+    width: 300px;
+}
+
+
+/* ВТОРАЯ СТРАНИЦА */
+
+.cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-auto-flow: row dense;
+    gap: 10px;
+}
+
+.pizza-card {
+    overflow: hidden;
+    position: relative;
+    /* display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: auto 10px; */
+    /* width: fit-content; */
+    /* min-width: 100px; */
+    min-height: fit-content;
+    margin: 20px;
+    border: 5px solid;
+    border-color: black;
+    border-radius: 15px;
+    background-color: #ffb9b9;
+    /* padding: 15px; */
+}
+
+.pizza-text {
+    max-width: 350px;
+}
+
+.pizza-card-item {
+    /* grid-row: span 2; */
+    height  : fit-content;
+    margin: 5%;
+    border-radius: 50%;
+}
+
+.buy-pizza {
+    /* grid-column: span 2; */
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    margin-top: 50px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #ff8484;
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.pizza_div {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.special_footer {
+    position: relative;
+    height: 50px;
+}
+
+.pizza_final_button {
+    position: absolute;
+    border-radius: 15px;
+    background-color: #ff8484;
+    right: 50px;
+    top: 10px;
+    bottom: 10px;
+    font-size: 15px;
+}
