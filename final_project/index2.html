@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <p><a href="workers.html">Лучшие сотрудники</a></p> 
+        <img src="img/pizza.png" alt="logo" class="logo">
+        <p><a href="pizzas.html">Лучшие пиццы</a></p>
+    </header>
+    <main>
+        <div class="pizza_final">
+            <div class="pizza_oplata">
+                <h1 class="final_header">КОРЗИНА</h1>
+                <div class="pizza pep hidden" id="pep">Пеперони - 5000$</div>
+                <div class="pizza meat hidden" id="meat">Мясная - 1000$</div>
+                <div class="pizza mix hidden" id="mix">Микс - 9999$</div>
+                <button class="pay">Оплатить</button>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="pizza-card">
+                <div class="pizza_div">
+                    <img class="pizza-card-item" src="img/peperoni.jpg" alt="пицца">
+                    <div class="pizza-text">
+                        <h3>Пеперони</h3>
+                        <p>Классическая пицца с тонким хрустящим тестом, сочным томатным соусом и обильным количеством тонких кусчков пеперони. Сверху на нее добавляют потрясающий сыр моцареллу, который образует хрустящую корочку.</p>
+                    </div>
+                </div>
+                <button class="buy-pizza" id="pep">Добавить в корзину</button>
+            </div>
+            <div class="pizza-card">
+                <div class="pizza_div">
+                    <img class="pizza-card-item" src="img/meat.jpg" alt="пицца">
+                    <div class="pizza-text">
+                        <h3>Мясная пицца</h3>
+                        <p>Пицца с сновным ингридиентом в виде мяса. Ветчина, пеперони и свинина, сыр моцарелла, соус барбекью и также грибы, оливки и помидоры</p>
+                    </div>
+                </div>
+                <button class="buy-pizza" id="meat">Добавить в корзину</button>
+            </div>
+            <div class="pizza-card">
+                <div class="pizza_div">
+                    <img class="pizza-card-item" src="img/barbeq.jpg" alt="пицца">
+                    <div class="pizza-text">
+                        <h3>Пицца-микс</h3>
+                        <p>Особый вид пиццы в котором случайно выбирается комплект ингридиентов из уже готовых и готовится по запланированной схеме.</p>
+                    </div>
+                </div>
+                <button class="buy-pizza" id="mix">Добавить в корзину</button>
+            </div>
+        </div>
+    </main>
+    <footer class="special_footer">
+        <button class="pizza_final_button">Корзина</button>
+    </footer>
+
+    <script src="scripts2.js"></script>
+</body>
+</html>
